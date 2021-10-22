@@ -1,0 +1,42 @@
+Begin Log
+2021-06-10 16:17:52.4552
+::1
+
+Message:
+Could not find a part of the path 'D:\Home\Project\netcore\ApiIntegrasiSIAP\Upload\2\3324075507930001_FOTO_PbbPhoto.png'.
+Stack Trace:
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at ApiIntegrasiSIAP.Repositories.SiapRepository.CreateDanaRumah(UploadDanaRumah request, HttpContext http) in D:\Home\Project\netcore\ApiIntegrasiSIAP\Repositories\SiapRepository.cs:line 143
+   at ApiIntegrasiSIAP.Controllers.ApiController.DanaRumah() in D:\Home\Project\netcore\ApiIntegrasiSIAP\Controllers\ApiController.cs:line 78
+Request:
+Header
+[{"Key":"Accept","Value":["*/*"]},{"Key":"Accept-Encoding","Value":["gzip, deflate, br"]},{"Key":"Authorization","Value":["Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImI2YWY3M2E5ZGYzOTk1MDk2YWE5ZTZiYWM1OGY2ZjY3MjhhMjYyMDEzMWI5MTJhNTM5NTRmNDFhYmYxZjMwMDZiYjkxZGJiZDVhN2IzOWEzIn0.eyJhdWQiOiI3IiwianRpIjoiYjZhZjczYTlkZjM5OTUwOTZhYTllNmJhYzU4ZjZmNjcyOGEyNjIwMTMxYjkxMmE1Mzk1NGY0MWFiZjFmMzAwNmJiOTFkYmJkNWE3YjM5YTMiLCJpYXQiOjE2MjMzMTEyMDQsIm5iZiI6MTYyMzMxMTIwNCwiZXhwIjoxNjIzMzk3NjA0LCJzdWIiOiIiLCJzY29wZXMiOltdfQ.HVbz1g4s31DcLBHqNqnSvWU-JeejKloPw0lK1q8Fqhl5qA8WXcFHhG1eKyP6SyDeNykHFuSlipUgaQRr2y3NlLSKKVcMPW1PSifg-AOfeoyLihG9PIHRSDR6NSlUvasZIFk9RxQukadYfAZLjRI7TncAugfY_0_Cvo6aXxUaywWJWxhi2YoL8rHeC0NDN2S3UiaMmDksTviou3A8uaf_i7t0Zp4KnT5vtzDcSsKt5FUMIumICsO4TwddVHvz4hMl7YQxlXON1jq881XPsGf0ai95W51sKQHUzyahjIMgKAac-owL3nI_w-M_t9XBvom6WgIJ1GiH5RtaW9VOeOptQUthXorVxzwA40tmcg08lp_WaSE-hLNm1ifqaUh_9dCz5-mlng63Mx0dtrzLHc3kZDbmMqOavcA3XD8cdcbDTt9VQalMi-TM59Eej2Xb9w2wLjcpczFjNe-lRovISHEFt1SKrXFlOgMb8pqeJUQGO1cHlThwpXdv8bS6WEyxn8CnJ5kl_dWbC0DLWHvqB-tZrdhcKLJlOkHD6k0770s1wKqwa1JlDSh3PtMIsG2o8gz9e1LFeC6RzqoPP0DIpyC6FskQH2ryHRwsUmqHa-rHPgG3X6ishJRlYDxMp7QTAAxBJ_BIIj_s1iWur63ECzk0Lss6TNTocOyeESMPsgrHqsM"]},{"Key":"Cache-Control","Value":["no-cache"]},{"Key":"Connection","Value":["keep-alive"]},{"Key":"Content-Length","Value":["615525"]},{"Key":"Content-Type","Value":["multipart/form-data; boundary=--------------------------196594270942840124607499"]},{"Key":"Host","Value":["localhost:62698"]},{"Key":"User-Agent","Value":["PostmanRuntime/7.28.0"]},{"Key":"Postman-Token","Value":["35ef5fb0-f807-4946-b92e-c1b45396b7a5"]}]
+Body
+
+
+End Log
+Begin Log
+2021-06-10 16:19:19.2050
+::1
+
+Message:
+Could not find a part of the path 'D:\Home\Project\netcore\ApiIntegrasiSIAP\Upload\2\3324075507930001_FOTO_PbbPhoto.png'.
+Stack Trace:
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at ApiIntegrasiSIAP.Repositories.SiapRepository.CreateDanaRumah(UploadDanaRumah request, HttpContext http) in D:\Home\Project\netcore\ApiIntegrasiSIAP\Repositories\SiapRepository.cs:line 143
+   at ApiIntegrasiSIAP.Controllers.ApiController.DanaRumah() in D:\Home\Project\netcore\ApiIntegrasiSIAP\Controllers\ApiController.cs:line 78
+Request:
+Header
+[{"Key":"Accept","Value":["*/*"]},{"Key":"Accept-Encoding","Value":["gzip, deflate, br"]},{"Key":"Authorization","Value":["Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImI2YWY3M2E5ZGYzOTk1MDk2YWE5ZTZiYWM1OGY2ZjY3MjhhMjYyMDEzMWI5MTJhNTM5NTRmNDFhYmYxZjMwMDZiYjkxZGJiZDVhN2IzOWEzIn0.eyJhdWQiOiI3IiwianRpIjoiYjZhZjczYTlkZjM5OTUwOTZhYTllNmJhYzU4ZjZmNjcyOGEyNjIwMTMxYjkxMmE1Mzk1NGY0MWFiZjFmMzAwNmJiOTFkYmJkNWE3YjM5YTMiLCJpYXQiOjE2MjMzMTEyMDQsIm5iZiI6MTYyMzMxMTIwNCwiZXhwIjoxNjIzMzk3NjA0LCJzdWIiOiIiLCJzY29wZXMiOltdfQ.HVbz1g4s31DcLBHqNqnSvWU-JeejKloPw0lK1q8Fqhl5qA8WXcFHhG1eKyP6SyDeNykHFuSlipUgaQRr2y3NlLSKKVcMPW1PSifg-AOfeoyLihG9PIHRSDR6NSlUvasZIFk9RxQukadYfAZLjRI7TncAugfY_0_Cvo6aXxUaywWJWxhi2YoL8rHeC0NDN2S3UiaMmDksTviou3A8uaf_i7t0Zp4KnT5vtzDcSsKt5FUMIumICsO4TwddVHvz4hMl7YQxlXON1jq881XPsGf0ai95W51sKQHUzyahjIMgKAac-owL3nI_w-M_t9XBvom6WgIJ1GiH5RtaW9VOeOptQUthXorVxzwA40tmcg08lp_WaSE-hLNm1ifqaUh_9dCz5-mlng63Mx0dtrzLHc3kZDbmMqOavcA3XD8cdcbDTt9VQalMi-TM59Eej2Xb9w2wLjcpczFjNe-lRovISHEFt1SKrXFlOgMb8pqeJUQGO1cHlThwpXdv8bS6WEyxn8CnJ5kl_dWbC0DLWHvqB-tZrdhcKLJlOkHD6k0770s1wKqwa1JlDSh3PtMIsG2o8gz9e1LFeC6RzqoPP0DIpyC6FskQH2ryHRwsUmqHa-rHPgG3X6ishJRlYDxMp7QTAAxBJ_BIIj_s1iWur63ECzk0Lss6TNTocOyeESMPsgrHqsM"]},{"Key":"Cache-Control","Value":["no-cache"]},{"Key":"Connection","Value":["keep-alive"]},{"Key":"Content-Length","Value":["615525"]},{"Key":"Content-Type","Value":["multipart/form-data; boundary=--------------------------373834355580591225421498"]},{"Key":"Host","Value":["localhost:62698"]},{"Key":"User-Agent","Value":["PostmanRuntime/7.28.0"]},{"Key":"Postman-Token","Value":["8c5b1e9e-acc9-407e-945a-36e047f80778"]}]
+Body
+
+
+End Log

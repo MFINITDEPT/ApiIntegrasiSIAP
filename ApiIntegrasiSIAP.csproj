@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>3993ada1-09b1-43a4-9069-bd53ecf793fa</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Upload\.gitkeep" />
+    <Content Include="Upload\DanaMobil\.gitkeep" />
+    <Content Include="Upload\DanaMobil\1\1101142705940001_1_KtpPhoto_11-06-202111_173211.5310_KtpPhoto.png" />
+    <Content Include="Upload\DanaMobil\1\1101142705940001_1_KtpPhoto_11-06-202111_173511.8932_KtpPhoto.png" />
+    <Content Include="Upload\DanaMobil\1\1101142705940001_1_SelfieWithKtpPhoto_11-06-202111_173411.9926_SelfieWithKtpPhoto.png" />
+    <Content Include="Upload\DanaMobil\1\1101142705940001_1_SelfieWithKtpPhoto_11-06-202111_173511.2821_SelfieWithKtpPhoto.png" />
+    <Content Include="Upload\DanaMobil\1\1101142705940001_1_StnkPhoto_11-06-202111_173411.4628_StnkPhoto.png" />
+    <Content Include="Upload\DanaMobil\1\1101142705940001_1_StnkPhoto_11-06-202111_173511.8778_StnkPhoto.png" />
+    <Content Include="Upload\DanaMobil\1\_1_DigiSign_22-06-202122_184422.6964_DigiSign.png" />
+    <Content Include="Upload\DanaRumah\.gitkeep" />
+    <Content Include="Upload\DanaRumah\2\1101142705940001_2_HousePhoto_11-06-202111_104111.5600_HousePhoto.png" />
+    <Content Include="Upload\DanaRumah\2\1101142705940001_2_HousePhoto_11-06-202111_145811.0907_HousePhoto.png" />
+    <Content Include="Upload\DanaRumah\2\1101142705940001_2_HousePhoto_11-06-202111_150811.4290_HousePhoto.png" />
+    <Content Include="Upload\DanaRumah\2\1101142705940001_2_KtpPhoto_11-06-202111_104111.9873_KtpPhoto.png" />
+    <Content Include="Upload\DanaRumah\2\1101142705940001_2_KtpPhoto_11-06-202111_145811.1587_KtpPhoto.png" />
+    <Content Include="Upload\DanaRumah\2\1101142705940001_2_KtpPhoto_11-06-202111_150811.9177_KtpPhoto.png" />
+    <Content Include="Upload\DanaRumah\2\1101142705940001_2_PbbPhoto_11-06-202111_104011.8720_PbbPhoto.png" />
+    <Content Include="Upload\DanaRumah\2\1101142705940001_2_PbbPhoto_11-06-202111_145711.1845_PbbPhoto.png" />
+    <Content Include="Upload\DanaRumah\2\1101142705940001_2_PbbPhoto_11-06-202111_150711.3752_PbbPhoto.png" />
+    <Content Include="Upload\DanaRumah\2\1101142705940001_2_SelfieWithKtpPhoto_11-06-202111_104111.1650_SelfieWithKtpPhoto.png" />
+    <Content Include="Upload\DanaRumah\2\1101142705940001_2_SelfieWithKtpPhoto_11-06-202111_145811.7464_SelfieWithKtpPhoto.png" />
+    <Content Include="Upload\DanaRumah\2\1101142705940001_2_SelfieWithKtpPhoto_11-06-202111_150811.4270_SelfieWithKtpPhoto.png" />
+    <Content Include="Upload\DanaRumah\2\_2_DigiSign_22-06-202122_184522.8571_DigiSign.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Portable.BouncyCastle" Version="1.8.10" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Libs\PublicKey\id_rsa.pub">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiIntegrasiSIAP", "ApiIntegrasiSIAP.csproj", "{48968873-1AD7-42AC-A690-6EC6E6822DE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48968873-1AD7-42AC-A690-6EC6E6822DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48968873-1AD7-42AC-A690-6EC6E6822DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48968873-1AD7-42AC-A690-6EC6E6822DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48968873-1AD7-42AC-A690-6EC6E6822DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA71DEAB-C2C9-4A24-B018-2693254E464B}
+	EndGlobalSection
+EndGlobal
